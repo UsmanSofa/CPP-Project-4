@@ -4,7 +4,7 @@
 
 The **Banking System** is a menu-driven C++ console application that demonstrates object-oriented programming through a simple banking simulation. It includes a base `BankAccount` class and three derived account types: `SavingsAccount`, `CheckingAccount`, and `FixedDepositAccount`.
 
-The application lets users deposit and withdraw money, check balances, view account information, calculate interest for eligible accounts, and check the overdraft limit for a checking account.
+The application lets users deposit and withdraw money, check balances, view account information, calculate interest for eligible accounts, and check the overdraft limit for a checking account
 
 ## Main Features
 
