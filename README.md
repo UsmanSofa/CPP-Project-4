@@ -9,7 +9,7 @@ The application lets users deposit and withdraw money, check balances, view acco
 ## Main Features
 
 - **Deposit Money:** Add a valid amount to an account balance.
-- **Withdraw Money:** Withdraw money when the account has sufficient funds; checking accounts can use an overdraft facility up to their configured limit.
+- **Withdraw Money:** Withdraw money from the selected account when sufficient funds are available.
 - **Check Balance:** View the current balance of a selected account.
 - **Display Account Information:** View the account number, account holder, and balance.
 - **Calculate Interest:** Calculate interest for savings and fixed-deposit accounts.
@@ -42,19 +42,17 @@ The Deposit Money option asks for an amount and adds it to the selected account'
 
 ## 3. Withdraw Money
 
-The Withdraw Money option allows the user to withdraw from the selected account. A checking account can withdraw beyond its available balance by using the overdraft facility, provided the configured overdraft limit is not exceeded.
+The Withdraw Money option allows the user to withdraw money from the selected account. A withdrawal is accepted when the amount is valid and within the account's available balance.
 
-### Screenshots
+### Screenshot
 
 ![Withdraw Money](screenshot/withdraw.png)
 
-![Overdraft Facility](screenshot/overdraft.png)
-
 ---
 
-## 4. Account Details, Balance, and Interest
+## 4. Check Balance, Display Account Information, and Calculate Interest
 
-This section includes checking the current balance, displaying account information, calculating interest for savings and fixed-deposit accounts, and viewing the overdraft limit for checking accounts.
+This section shows how users can check an account's current balance, view account details, and calculate interest for savings and fixed-deposit accounts.
 
 ### Screenshots
 
@@ -69,3 +67,13 @@ This section includes checking the current balance, displaying account informati
 **Calculate Interest**
 
 ![Interest Calculation](screenshot/interest.png)
+
+---
+
+## 5. Overdraft Facility
+
+The Overdraft Facility is available for checking accounts. It allows a withdrawal to exceed the available balance up to the configured overdraft limit. This feature is shown separately from the regular Withdraw Money section.
+
+### Screenshot
+
+![Overdraft Facility](screenshot/overdraft.png)
